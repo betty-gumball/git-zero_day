@@ -5,11 +5,13 @@ function factorial(n) {
     result*=i;
   }
     return result;	 
-    //return (result);
         }
   console.log(factorial(10))
- function fact(n) {
-	 let result=1;
-	 return fact(n*(n-1));
- }
-console.log(fact(10))
+  module.exports = {factorial};
+
+// function fact(n) {
+//	 let result=1;
+//	 return fact(n*(n-1));
+// }
+//console.log(fact(10))
+

@@ -20,3 +20,5 @@ function getSecondLargest(num) {
 	return second_largest_num;
 }
 console.log(getSecondLargest([3,7,4,9]))
+module.exports = {getSecondLargest};
+

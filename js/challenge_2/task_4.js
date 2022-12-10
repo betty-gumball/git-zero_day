@@ -1,6 +1,5 @@
 #!/usr/bin/node
-function getGrade(score) {
-	
+function getGrade(score) {	
 	let grade;
      if (score > 25 && score < 30){
 	     grade = "A";
@@ -25,3 +24,5 @@ function getGrade(score) {
 		  return "No  grade";
      }
  console.log(getGrade(2))
+ module.exports = {getGrade};
+

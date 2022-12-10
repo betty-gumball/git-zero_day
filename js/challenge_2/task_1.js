@@ -1,7 +1,6 @@
 #!/usr/bin/node
 function add(a, b) {
-  
-  return(a + b);
+  return a + b;
     }
-  console.log(add(9,10))
- 
+console.log(add(9,10))
+module.exports = {add};

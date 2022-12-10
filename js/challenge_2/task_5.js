@@ -14,7 +14,7 @@ function getLetter(s) {
 		return "D";
 	else
 		return "no match";
-
-
            }
 	console.log(getLetter("hnbb"))
+        module.exports = {getLetter};
+

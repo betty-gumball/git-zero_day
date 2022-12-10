@@ -7,3 +7,5 @@ const FuncTwo = (call,n) => {
 	console.log(FuncOne())
 }}
 FuncTwo(FuncOne,3)
+module.exports = {FuncOne};
+
